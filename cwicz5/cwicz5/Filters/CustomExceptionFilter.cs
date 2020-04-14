@@ -44,6 +44,7 @@ namespace cwicz5.Filters
             response.ContentType = "application/json";
             var err = "aaaaaaaaaaaaaaaaaaaaaaaaaa";
             response.WriteAsync(err);
+
         }
 
         public void OnException(ExceptionContext context)
