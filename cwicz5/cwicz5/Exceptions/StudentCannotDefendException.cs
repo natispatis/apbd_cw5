@@ -5,7 +5,15 @@ using System.Threading.Tasks;
 
 namespace cwicz5.Exceptions
 {
-    public class StudentCannotDefendException
+    public class StudentCannotDefendException : Exception
     {
+        public StudentCannotDefendException(string message) : base(message)
+        {
+
+        }
+
+        public StudentCannotDefendException(string message, Exception innerException) : base(message, innerException)
+        {
+        }
     }
 }
