@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace cwicz5.Models
+namespace cwicz5.Dtos
 {
-    public class Class
+    public class DoctorRequestDto
     {
     }
 }

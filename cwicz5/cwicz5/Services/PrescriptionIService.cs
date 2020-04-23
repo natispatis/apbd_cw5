@@ -8,9 +8,9 @@ namespace cwicz5.Controllers
 {
     public interface IDbService
     {
-        void EnrollStudent(EnrollStudentRequest request);
+        //void EnrollStudent(EnrollStudentRequest request);
         void PromoteStudents(int semester, string studies);
 
-        Student GetStud(string index);
+        Procedure GetStud(string index);
     }
 }

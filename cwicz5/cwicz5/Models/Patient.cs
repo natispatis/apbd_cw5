@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace cwicz5.Models
 {
-    public class ErrorDetails
+    public class Patient
     {
     }
 }
